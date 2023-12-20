@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+#home{
+    height: 80px;
+    width: 100vw;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: black;
+
+}
+#home .a{
+    color: black;
+    font-size: larger;
+    font-weight: 600;
+    text-decoration: none;
+}
+/* #home ul li{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 150px;
+} */
+/* #home ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-weight: 550;
+} */
+#trans{
+    background-color: azure;
+}
+#trans #d1{
+    height: 100px;
+    width: 200px;
+    background-color: #fff;
+    margin: 30px 500px;
+    text-align: center;
+    padding-top: 60px;
+    border-radius: 100%;
+    font-size: 25px;
+    font-weight: 550;
+}
+#trans #d2{
+    display: flex;
+    justify-content: space-around;
+}
+#trans #d2 input{
+    height: 25px;
+    width: 200px;
+    border-style: none;
+    border-radius: 10px;
+    background-color: bisque;
+    color: black;
+    text-align: center;
+}
+#trans #d3 table{
+    background-color: bisque;
+    margin: 20px 60px;
+    text-align: center;
+}
+#trans #d3 table tr td img{
+    height: 50px;
+    width: 50px;
+}
+#stats{
+    height: 250px;
+    width: 450px;
+    background-color: azure;
+    position: absolute;
+    margin: 70px 400px;
+}
+#stats #d1{
+    height: fit-content;
+    width: fit-content;
+    
+    position: relative;
+    margin: 30px 80px;
+}
+#stats #d1 label{
+    font-size: large;
+    margin: 10px;
+}
+#stats #d1 select{
+    height: 20px;
+    width: 120px;
+    font-weight: 300;
+}
+#stats #d2{
+    height: 100px;
+    width: 250px;
+    background-color: bisque;
+    line-height: 30px;
+    margin-left: 70px;
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+#chart{
+    height: 350px;
+    width: 600px;
+    background-color: azure;
+    margin: 20px 340px;
+    padding: 40px 50px;
+    text-align: center;
+}
+#chart #d1{
+    height: fit-content;
+    width: fit-content;
+    /* background-color: bisque; */
+    margin: 20px;
+}
